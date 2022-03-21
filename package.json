@@ -1,0 +1,32 @@
+{
+  "name": "inothing",
+  "version": "1.0.0",
+  "description": "The InoThing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9d4/inothing.git"
+  },
+  "keywords": [
+    "arduino",
+    "ino",
+    "iot"
+  ],
+  "author": "Dimas Ananda traper",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/9d4/inothing/issues"
+  },
+  "homepage": "https://github.com/9d4/inothing#readme",
+  "dependencies": {
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "vite": "^2.8.6"
+  }
+}
