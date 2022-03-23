@@ -15,3 +15,5 @@ function createAppDiv() {
     document.body.appendChild(appEl);
     return appEl;
 }
+
+export { createAppDiv }
