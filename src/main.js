@@ -6,8 +6,11 @@ document.addEventListener("DOMContentLoaded", main);
 
 function main() {
     const app = createApp(App);
-    app.use(router);
-    app.mount(createAppDiv());
+
+    router.isReady().then(() => {
+        app.use(router);
+        app.mount(createAppDiv());
+    });
 }
 
 function createAppDiv() {
